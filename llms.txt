@@ -1,0 +1,98 @@
+# OpenTemplates - Tailwind CSS & React Components and Templates
+
+> Production-ready, framework-agnostic Tailwind CSS and React component slices, landing pages, and templates. Built with Fumadocs documentation. Free and open source under the MIT License.
+
+## Overview
+OpenTemplates provides a curated library of modular React + Tailwind CSS components and complete full-page templates. Every component is self-contained, customizable, accessible, and structured for copy-paste use or direct ingestion by autonomous AI coding agents (such as Antigravity, Cursor, Claude Code, GitHub Copilot, Windsurf).
+
+- Framework: React 19 / Next.js 15 (App Router compatible)
+- Documentation: Fumadocs (fumadocs-ui & fumadocs-core)
+- Styling: Tailwind CSS (v3/v4 utility classes)
+- Accessible Primitives: Headless UI, Heroicons, Lucide React
+- License: MIT (Free for commercial and personal use)
+
+## Documentation & Routes
+- Documentation Home: `/docs`
+- AI Agent Standard: `/docs/agent-standard`
+- Machine-Readable Index: `/llms.txt`
+- Component Pages: `/docs/components/[slug]`
+- Template Pages: `/docs/templates/[slug]`
+
+## Component Slices by Category
+
+### Marketing
+- Hero with Dropdown Navigation: `/docs/components/hero-simple` (`src/components/(marketing)/HeroSection/Simple/index.tsx`)
+- Grid-Based Feature Section: `/docs/components/feature-grid` (`src/components/(marketing)/FeatureSection/GridBased/index.tsx`)
+- Feature Section with Product Screenshot: `/docs/components/feature-screenshot` (`src/components/(marketing)/FeatureSection/WithProductScreenShot/index.tsx`)
+- Feature Section with Sticky Graphic: `/docs/components/feature-sticky` (`src/components/(marketing)/FeatureSection/WithStickyProductShot/index.tsx`)
+- Full Navigation Header with Flyout Menus: `/docs/components/header-dropdownful` (`src/components/(marketing)/Header/Dropdownful/index.tsx`)
+- Header with Key Metric Stats: `/docs/components/header-stats` (`src/components/(marketing)/HeaderSection/WithStats/index.tsx`)
+- Single-Tier Focused Pricing: `/docs/components/pricing-simple` (`src/components/(marketing)/PricingPage/Simple/index.tsx`)
+- Three-Column Metric Counter: `/docs/components/stats-simple` (`src/components/(marketing)/Stats/Simple/index.tsx`)
+- Partner & Client Logo Grid: `/docs/components/logo-lined-up` (`src/components/(marketing)/Logo/LinedUp/index.tsx`)
+- Leadership & Team Member Grid: `/docs/components/teams-basic` (`src/components/(marketing)/Teams/Basic/index.tsx`)
+- Three-Column Blog & Resource Cards: `/docs/components/blogs-simple` (`src/components/(marketing)/Blogs/Simple/index.tsx`)
+- Interactive Contact Form: `/docs/components/contact-basic` (`src/components/(marketing)/Contact/Basic/index.tsx`)
+- High-Impact Dark CTA Banner: `/docs/components/cta-product-screenshot` (`src/components/(marketing)/CTASection/WithProductScreenShot/index.tsx`)
+- Newsletter Subscription with Trust Signals: `/docs/components/subscribe-detailed` (`src/components/(marketing)/Subscribe/SideBySideDetailed/index.tsx`)
+- Announcement Strip Banner: `/docs/components/banner-thin` (`src/components/(marketing)/Banner/ThinStrip/index.tsx`)
+- Active User & Status Directory: `/docs/components/user-list` (`src/components/(marketing)/UserList/index.tsx`)
+- Executive Quote Testimonial: `/docs/components/testimonial-simple` (`src/components/(marketing)/Testimonial/Simple/index.tsx`)
+
+### Ecommerce
+- Visual Category Catalogue: `/docs/components/ecommerce-category-catalogue` (`src/components/(ecommerce)/CategoryCatalogue/WithPreviewImage/index.tsx`)
+- Technical Specifications Image Grid: `/docs/components/ecommerce-product-features` (`src/components/(ecommerce)/ProductFeatures/WithImageGrid/index.tsx`)
+- Hero Promo with Multi-Image Mosaic: `/docs/components/ecommerce-promo-section` (`src/components/(ecommerce)/PromoSection/WithImageTitle/index.tsx`)
+- Storefront Mega-Menu Navigation: `/docs/components/ecommerce-navigation` (`src/components/(ecommerce)/Navigation/WithFeatures/index.tsx`)
+- Product Catalog Simple Grid: `/docs/components/ecommerce-product-grid` (`src/components/(ecommerce)/ProductList/SimpleGrid/index.tsx`)
+- Horizontal Product Queue: `/docs/components/ecommerce-product-inline-queue` (`src/components/(ecommerce)/ProductList/InlineQueue/index.tsx`)
+- Faceted Filter Drawer & Header: `/docs/components/ecommerce-filters` (`src/components/(ecommerce)/Filters/SidewaysContainer/index.tsx`)
+
+### Pitch & Slices
+- Clean Minimalist Header: `/docs/components/pitch-header` (`src/components/(pitch)/SimpleHeader/index.tsx`)
+- Infinite Marquee Partner Carousel: `/docs/components/pitch-client-logos` (`src/components/(pitch)/ClientLogos/index.tsx`)
+- Three-Column Bento Grid: `/docs/components/pitch-bento-grid` (`src/components/(pitch)/ThreeColumnBentoGrid/index.tsx`)
+- Strategic Architecture Comparison: `/docs/components/pitch-option-compare` (`src/components/(pitch)/OptionCompare/index.tsx`)
+
+### Starter & Motion
+- Kinetic Orbiting Avatars: `/docs/components/starter-orbiting-avatars` (`src/components/(starter)/OrbitingAvatars/index.tsx`)
+- Dual-Tier Comparative Pricing: `/docs/components/starter-pricing-two-tier` (`src/components/(starter)/PricingWithTwoSection/index.tsx`)
+- Kinetic Motion Hero: `/docs/components/starter-hero-moving` (`src/components/(starter)/HeroWithMovingObjects/index.tsx`)
+
+## Full-Page Production Templates
+
+1. AI Global Summit & Tech Conference
+   - Live Route: `/templates/conference`
+   - Documentation: `/docs/templates/conference`
+   - File: `src/app/templates/conference/page.tsx`
+   - Features: Hero registration, multi-day agenda schedule tabs, speaker gallery, sponsor cloud, newsletter capture.
+
+2. Developer & Creator Dark Mode Portfolio
+   - Live Route: `/templates/portfolio`
+   - Documentation: `/docs/templates/portfolio`
+   - File: `src/app/templates/portfolio/page.tsx`
+   - Features: Persistent theme switcher (Dark/Light), publications, speaking gigs, career timeline, project showcase.
+
+3. Modern Ecommerce Storefront
+   - Live Route: `/templates/ecommerce`
+   - Documentation: `/docs/templates/ecommerce`
+   - File: `src/app/templates/ecommerce/page.tsx`
+   - Features: Store navigation with mega menu, hero promotional banners, technical specs grid, category catalogue.
+
+4. Faceted Product Collection Catalog
+   - Live Route: `/templates/collection`
+   - Documentation: `/docs/templates/collection`
+   - File: `src/app/templates/collection/page.tsx`
+   - Features: Slide-over responsive filter drawer, sorting controls, product list grids, thumbnail queues.
+
+5. SaaS Product Launch Starter
+   - Live Route: `/templates/starter`
+   - Documentation: `/docs/templates/starter`
+   - File: `src/app/templates/starter/page.tsx`
+   - Features: Complete conversion funnel combining hero, features, comparative pricing, team, blog, and contact form.
+
+## AI Agent Instructions
+To use any component with an autonomous agent:
+1. Reference the component file path or documentation URL directly from this document.
+2. Ensure Tailwind CSS is configured in your project with `@headlessui/react` and `@heroicons/react`.
+3. Copy the component into your project's component directory or import it directly.
